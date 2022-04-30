@@ -1,7 +1,7 @@
 import pygame
 from random import randint
-pygame.init()
- 
+
+
 #создание окна игры
 clock = pygame.time.Clock()
 back = (255, 255, 255) #цвет фона (background)
