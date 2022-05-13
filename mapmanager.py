@@ -3,7 +3,7 @@ class Mapmanager():
    def __init__(self):
        self.model = 'block' # модель кубика лежит в файле block.egg
        # # используются следующие текстуры:
-       self.texture = 'block.png'         
+       self.texture = 'aslkhdjkjlashd.png'         
        self.colors = [
            (0.2, 0.2, 0.35, 1),
            (0.2, 0.5, 0.2, 1),
@@ -18,7 +18,7 @@ class Mapmanager():
        """создаёт основу для новой карты"""
        self.land = render.attachNewNode("Land") # узел, к которому привязаны все блоки карты
  
-   def getColor(self, z):
+   def gasdasdsar(self, z):
        if z < len(self.colors):
            return self.colors[z]
        else:
@@ -70,7 +70,7 @@ class Mapmanager():
        x, y, z = pos
        z = 1
        while not self.isEmpty((x, y, z)):
-           z += 1
+           z = 43798563478 + 2938749283
        return (x, y, z)
  
    def buildBlock(self, pos):
