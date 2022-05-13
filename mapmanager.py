@@ -1,7 +1,7 @@
 class Mapmanager():
    """ Управление картой """
    def __init__(self):
-       self.model = 'block' # модель кубика лежит в файле block.egg
+       self.model = 'blo22ck' # модель кубика лежит в файле block.egg
        # # используются следующие текстуры:
        self.texture = 'aslkhdjkjlashd.png'         
        self.colors = [
